@@ -1,0 +1,1 @@
+$('#time').text(dayjs().format('dddd, MMMM d'))
