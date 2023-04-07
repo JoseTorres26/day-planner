@@ -12,3 +12,24 @@ header {
     padding-bottom: 20px;
     border-bottom: solid;
 }
+
+.container {
+    display: flexbox;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+#am {
+   border: solid;
+   float: left;
+}
+
+input {
+    display: flex;
+    flex-grow: 1;
+    width: 1000px;
+}
+button {
+    float: right;
+}
