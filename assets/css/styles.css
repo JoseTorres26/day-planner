@@ -15,7 +15,7 @@ header {
 
 .container {
     display:flex;
-    
+    margin-top: 50px;
     
 }
 
@@ -26,6 +26,8 @@ header {
    height: 100px;
    width: 140px;
    text-align: center;
+   
+
 }
 
 input {
@@ -34,10 +36,16 @@ input {
     height: 100px;
     margin-right: 0;
     margin-left: 0;
+    border: none;
 }
 button {
     float: right;
     height: 100px;
     width: 150px;
     margin-left: 0px;
+    font-size: 50px;
+    background-color: rgb(56, 133, 179);
+    border: 1px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
