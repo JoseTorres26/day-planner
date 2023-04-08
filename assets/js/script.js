@@ -1,11 +1,14 @@
-var time = $('#time').text(dayjs().format('dddd, MMMM d')); 
-var hour = ['9','10', '11', '12', '1', '2', '3', '4', '5'];
-$('p.9').text(hour[0] + 'am')
-$('p.10').text(hour[1] + 'am')
-$('p.11').text(hour[2] + 'am')
-$('p.12').text(hour[3] + 'am')
-$('p.1').text(hour[4] + 'pm')
-$('p.2').text(hour[5] + 'pm')
-$('p.3').text(hour[6] + 'pm')
-$('p.4').text(hour[7] + 'pm')
-$('p.5').text(hour[8] + 'pm')
+var time = $('#time').text(dayjs().format('dddd, MMMM dd')); 
+var hour = ['9','10', '11', '12', '13', '14', '15', '16', '17'];
+let hour9 = parseInt(hour[0])
+let hour10 = parseInt(hour[1])
+let hour11 = parseInt(hour[2])
+let hour12 = parseInt(hour[3])
+let hour13 = parseInt(hour[4])
+let hour14 = parseInt(hour[5])
+let hour15 = parseInt(hour[6])
+let hour16 = parseInt(hour[7])
+let hour17 = parseInt(hour[8])
+let hourVar = (dayjs().hour())
+
+console.log(hournum);
