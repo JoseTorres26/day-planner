@@ -13,14 +13,16 @@ header {
     border-bottom: solid;
 }
 
+#margin {
+    margin-top: 50px;
+}
 .container {
     display:flex;
-    margin-top: 50px;
-    
 }
 
-#morning {
+#hour {
    border: solid;
+   border-left: 0;
    float: left;
    margin-right: 0;
    height: 100px;

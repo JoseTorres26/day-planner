@@ -20,7 +20,6 @@ let save6 = document.querySelector("#save6");
 let save7 = document.querySelector("#save7");
 let save8 = document.querySelector("#save8");
 
-
 function list() {
    let input = localStorage.getItem("todo-list-item")
    let input1 = localStorage.getItem("todo-list-item1")
