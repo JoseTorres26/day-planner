@@ -1,6 +1,9 @@
+ // displays time in header
 var time = $('#time').text(dayjs().format('dddd, MMMM D')); 
 var hour = [9,10, 11, 12, 13, 14, 15, 16, 17];
 let hourVar = (dayjs().hour())
+
+ // variables to save and retrieve from local storage
 let todo = document.querySelector("#to-do")
 let todo1 = document.querySelector("#to-do1")
 let todo2 = document.querySelector("#to-do2")
@@ -20,6 +23,7 @@ let save6 = document.querySelector("#save6");
 let save7 = document.querySelector("#save7");
 let save8 = document.querySelector("#save8");
 
+ // retreives from local storage
 function list() {
    let input = localStorage.getItem("todo-list-item")
    let input1 = localStorage.getItem("todo-list-item1")
@@ -44,6 +48,7 @@ function list() {
 
 list();
 
+ // determines color for time block depending on what time it is
 for (let i = 0; i < hour.length; i++) {
 
     if (hour[i] < hourVar) {
@@ -55,6 +60,8 @@ for (let i = 0; i < hour.length; i++) {
     }
 }
 
+
+ // event listeners for buttons, saves input
 save.addEventListener("click", function(e) {
     e.preventDefault()
     if( e.target.matches("#save")) {
